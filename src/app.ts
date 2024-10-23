@@ -14,8 +14,8 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    app.use(express.json());
     app.use(cors());
+    app.use(express.json());
 
     app.get('/health', (req: Request, res: Response) => {
       res.status(200).json({ status: "Health Great!" });
