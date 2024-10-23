@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-export const API_CALL_INTERVAL = Number(process.env.API_CALL_INTERVAL) || 5;
+export const API_CALL_INTERVAL = 5;
 export const METRO_CITIES = [
   { cityName: 'Delhi', cityId: '1273294' },
   { cityName: 'Mumbai', cityId: '1275339' },
