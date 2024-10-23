@@ -195,7 +195,7 @@ export const fetchTemperatureForPastHoursByCity = async (city_id: string, past_h
         },
       },
       {
-        $sort: { "_id.hour": -1 },
+        $sort: { "_id.hour": 1 },
       },
     ]);
 
