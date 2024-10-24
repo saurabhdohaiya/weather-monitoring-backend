@@ -31,8 +31,14 @@ const startServer = async () => {
       }
     };
 
+    // We need to call this function from backend every 5 minutes becuase when frontend is not active it wont make any call and hence no data will be found
     await fetchWeatherData();
 
+    cron.schedule('*/5 * * * *', async () => {
+      console.log('Cron job running to fetch weather data...');
+      await fetchWeatherData();
+    });
+    
     // Uncomment and use this if you want to calculate and save daily summaries this should be schedule once everyday
     cron.schedule('1 0 * * *', async () => {
       const date = new Date();
