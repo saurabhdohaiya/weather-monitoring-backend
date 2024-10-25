@@ -68,6 +68,24 @@ The Weather Monitoring Application provides users with real-time weather updates
 - **GET /api/weather/history?past_hours_count=8:** Retrieve past 8 hours of weather data(if present in DB).
 - **POST /api/weather/history?past_days_count=8:** Retrieve past 8 days of weather data(if Present if DB).
 
+  ## Running Locally
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/saurabhdohaiya/weather-monitoring-frontend.git
+   cd weather-monitoring-frontend
+   ```
+2. Install the necessary dependencies.
+   ```bash
+   npm install
+   ```
+3. Add the necessary dependencies in the .env file.
+4. Run the application
+  ```bash
+   npm run dev
+   ```
+
+
 ## Conclusion
 
 This Weather Monitoring Application is designed to provide users with comprehensive and user-friendly access to weather data, enhancing their ability to plan and respond to changing weather conditions effectively.
