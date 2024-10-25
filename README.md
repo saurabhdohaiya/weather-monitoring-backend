@@ -72,8 +72,8 @@ The Weather Monitoring Application provides users with real-time weather updates
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/saurabhdohaiya/weather-monitoring-frontend.git
-   cd weather-monitoring-frontend
+   git clone https://github.com/saurabhdohaiya/weather-monitoring-backend.git
+   cd weather-monitoring-backend
    ```
 2. Install the necessary dependencies.
    ```bash
