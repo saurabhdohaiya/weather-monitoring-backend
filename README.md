@@ -1,5 +1,8 @@
 # Weather Monitoring Application
 
+![image](https://github.com/user-attachments/assets/21a960b1-d6c0-4c16-9d72-5f1b4e77f7c2)
+
+
 **Live Demo:** [Live View](https://weather-monitoring-frontend.onrender.com/)  
 **GitHub Links:**  
 - **Frontend:** [GitHub Repository for Frontend](https://github.com/saurabhdohaiya/weather-monitoring-frontend)  
@@ -46,6 +49,9 @@ The Weather Monitoring Application provides users with real-time weather updates
 
 9. **Responsive Design and Interactive UI**
    - The application is designed to be responsive, ensuring a seamless experience on various devices. The user interface is interactive, allowing for smooth navigation and data visualization.
+
+![image](https://github.com/user-attachments/assets/d6f31871-c4ab-4208-a451-7fff2e9304ca)
+
 
 10. **Visualization using ChartJS**
     - ChartJS is used for visualizing weather data, providing graphical representations of temperature trends and summaries.
