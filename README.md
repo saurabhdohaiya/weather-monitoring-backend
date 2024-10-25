@@ -81,7 +81,7 @@ The Weather Monitoring Application provides users with real-time weather updates
    ```
 3. Add the necessary dependencies in the .env file.
 4. Run the application
-  ```bash
+   ```bash
    npm run dev
    ```
 
